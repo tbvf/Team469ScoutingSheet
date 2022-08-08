@@ -1,0 +1,56 @@
+:root {
+    --primary-clr: hsla(137, 100%, 28%, 0.526);
+    --secondary-clr: hsla(57, 100%, 50%, 1);
+    --tertiary-clr: hsla(234, 100%, 25%, 1);
+}
+
+::-webkit-scrollbar{
+    width: 1rem;
+    padding-left: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--secondary-clr);
+    border-radius: 100vw;
+    -webkit-border-radius: 100vw;
+    -moz-border-radius: 100vw;
+    -ms-border-radius: 100vw;
+    -o-border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: hsla(57, 100%, 40%, 1);
+}
+
+body {
+    background: var(--primary-clr);
+    color: black;
+    padding-right: 1rem;
+}
+
+h2 {
+    color: var(--secondary-clr);
+}
+
+h4 {
+    color: var(--tertiary-clr);
+}
+
+label {
+    color: var(--tertiary-clr);
+}
+
+input,
+select {
+    accent-color: var(--secondary-clr);
+    box-shadow: 0 0 0 3px var(--tertiary-clr);
+    padding: 5px;
+    margin: 0.5rem;
+    outline: none;
+    border-width: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

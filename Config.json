@@ -1,0 +1,77 @@
+{
+    "Categories": [{
+            "title": "Information",
+            "numbers": [
+                "Team Number"
+            ],
+            "dropdowns": [],
+            "fields": [
+                "Scouter"
+            ],
+            "checks": []
+        },
+        {
+            "title": "Auton",
+            "numbers": [
+                "High Goals",
+                "Low Goals"
+            ],
+            "dropdowns": [],
+            "fields": [
+                "Strengths",
+                "Weaknesses"
+            ],
+            "checks": [
+                "Can Move",
+                "Can Score"
+            ]
+        },
+        {
+            "title": "TeleOp",
+            "numbers": [
+                "High Goals",
+                "Low Goals"
+            ],
+            "dropdowns": [],
+            "fields": [
+                "Strengths",
+                "Weaknesses"
+            ],
+            "checks": [
+                "Can Score"
+            ]
+        },
+        {
+            "title": "Endgame",
+            "numbers": [
+                "Points"
+            ],
+            "dropdowns": [{
+                "name": "Climb Height",
+                "items": [
+                    "low",
+                    "medium",
+                    "high",
+                    "traversal",
+                    "even higher"
+                ]
+            }],
+            "fields": [
+                "Strengths",
+                "Weaknesses"
+            ],
+            "checks": [
+                "Can Climb"
+            ]
+        },
+        {
+            "title": "Comments",
+            "numbers": [],
+            "dropdowns": [],
+            "fields": [
+                "Extra Info"
+            ],
+            "checks": []
+        }
+    ]
+}
